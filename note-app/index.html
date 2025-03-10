@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎀 The Note Bae 🎀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scrolling Quotes (Now above the title) -->
+    <div class="quote-container">
+        <p id="scrollingQuote"></p>
+    </div>
+
+    <h1>🎀 The Note Bae 🎀</h1>
+    <p>Your Notes (Click "Edit" to modify)</p>
+
+    <div class="note-container">
+        <input type="text" id="noteTitle" placeholder="Enter title...">
+        <textarea id="noteContent" placeholder="Start typing your note..."></textarea>
+
+        <!-- Checklist Input -->
+        <input type="text" id="checklistItem" placeholder="Add checklist item...">
+        <button onclick="addChecklistItem()">🎀 Add Item 🎀</button>
+        <ul id="checklist"></ul>
+
+        <button onclick="addOrUpdateNote()">🎀 Save Note 🎀</button>
+        <button onclick="clearNotes()">🎀 Delete All Notes 🎀</button>
+    </div>
+    
+    <div id="noteList"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+<footer>
+    <h3>Connect With Me</h3>
+    <p>💌 GitHub: <a href="https://github.com/shagungoswami15" target="_blank">@shagungoswami15</a></p>
+    <p>📧 Email: <a href="mailto:shagungoswami15@gmail.com">shagungoswami15@gmail.com</a></p>
+</footer>
+
+</html>
